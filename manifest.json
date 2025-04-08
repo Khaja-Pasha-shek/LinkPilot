@@ -1,0 +1,59 @@
+{
+    "manifest_version": 3,
+    "name": "Favorite Link Opener With LinkPilot",
+    "version": "1.0",
+    "description": "Save and Open favorite tabs with keyboard shortcuts",
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "worker.js",
+        "type": "module"
+    },
+    "action": {
+        "default_popup": "index.html"
+    },
+    "commands": {
+        "_execute_action": {
+            "suggested_key": {
+                "default": "Alt+O"
+            },
+            "description": "Open the Extension Instance"
+        },
+        "shortcut_1": {
+            "suggested_key": {
+                "default": "Alt+Shift+1"
+            },
+            "description": "Activate Shortcut 1"
+        },
+        "shortcut_2": {
+            "suggested_key": {
+                "default": "Alt+Shift+2"
+            },
+            "description": "Activate Shortcut 2"
+        },
+        "shortcut_3": {
+            "suggested_key": {
+                "default": "Alt+Shift+3"
+            },
+            "description": "Activate Shortcut 3"
+        }
+    },
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "settings.html",
+                "assets/icon.png"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ]
+}

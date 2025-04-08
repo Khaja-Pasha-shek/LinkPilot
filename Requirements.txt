@@ -1,0 +1,13 @@
+-> ES6 Support 				->Done
+-> Auto Fetch Link and Domain Name 	->Done
+-> URL Validation 			->Done
+-> Save and Edit			->Done
+-> Domain Specific KeyBoard shortcuts	->Done
+-> ShortCuts validation			->Done
+-> Unique UrlsValidation		->Done
+-> Export and Import List and Shortcuts	->Done
+-> Custom Shortcuts for URLs		->Done
+-> Intro and About Page			->Done
+-> Search Bar in Links List Dialog	->Done
+-> Animations				->Done
+-> Buttons -> Import,Export,Edit,Settings ->Done
